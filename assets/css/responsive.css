@@ -1,0 +1,19 @@
+@media (max-width: 575px){
+
+   h1.top-heading {
+        font-size: 13px;
+    }
+
+    nav.menu {
+        display: flex;
+        display: none;
+    }
+
+
+    h1.feature-heading.display-4.pb-4 {
+        font-size: 37px;
+    }
+
+
+    
+}
