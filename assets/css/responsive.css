@@ -14,6 +14,83 @@
         font-size: 37px;
     }
 
+    h2.display-3 {
+        font-size: 37px;
+    }
 
+    .inner-heading {
+        font-size: 16px;
+        display: flex;
+    }
+
+    .heading-icon {
+        width: 32px;
+        height: 29px;
+        background: #b2cdc9;
+        border-radius: 100%;
+        margin-right: 21px;
+    }
+
+    .icon {
+        
+        position: revert; 
+    }
+    .icon2 { 
+        position: revert;
+    }
+    .link.pt-5 {
+        padding-bottom: 26px;
+    }
+    h3.display-3.care.mb-4 {
+        font-size: 37px;
+    }
+    h3.display-3.mb-5 {
+        font-size: 37px;
+    }
     
+    h3.display-3.footer-heading {
+        font-size: 34px;
+    }
+    button.button-large.rounded-pill {
+        width: 50%;
 }
+
+.col-xl-4.text-lg-right.pt-sm-5 {
+    padding-top: 30px;
+}
+h3.border-bottom.pb-2.mb-2 {
+    text-align: center;
+}
+}
+
+@media (min-width: 768px) and (max-width: 1023px){
+
+    .icon {
+        position: initial;
+}
+.icon2 {
+    position: initial;
+}
+.col-xl-4.col-md-6.py-5.border-bottom.border-left {
+    border-right: 1px solid #dee2e6;
+}
+
+h3.display-3.footer-heading {
+    font-size: 50px;
+}
+
+button.button-large.rounded-pill {
+    background: #E7C287;
+    width: 50%;
+}
+
+
+
+
+
+
+
+}
+
+
+

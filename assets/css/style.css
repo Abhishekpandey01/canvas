@@ -172,7 +172,85 @@ i.fa.fa-check-circle.mr-2 {
     color: #0f6458;
 }
 
-.price {
+/* .price {
     padding: 30px;
     text-align: center;
+} */
+
+sub {
+    bottom: -0.45em;
+    font-size: 90px;
+}
+
+.col-xl-3.d-lg-flex.flex-column.justify-content-center.p-5.price-tag{
+    background-color: #DEEAE8;
+}
+
+button.rounded-pill.w-100.p-2 {
+    background: #0F6458;
+    color: #fff;
+    border: none;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+h1.doller-part {
+    color: #0F6458;
+}
+
+section#footer {
+    background: #13665B;
+    padding: 80px 0px;
+}
+section.Pricing-section {
+    padding: 50px 0px 80px 0px;
+}
+button.button-large.rounded-pill {
+    background: #E7C287;
+    width: 18%;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    color: #283232;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    margin: 10px;
+}
+button.button-large.rounded-pill.Registe {
+    background: #fff;
+    color: #13665B;
+}
+h3.display-3 {
+    color: #fff;
+}
+li {
+    list-style: none;
+}
+li.footer-widget {
+    font-size: 18px;
+    color: rgb(255 255 255 / 80%);
+    padding: 6px;
+}
+.small, small {
+    font-size: 117%;
+    font-weight: 400;
+    color: rgb(255 255 255 / 80%);
+}
+i.fa.fa-facebook-square {
+    font-size: 41px;
+}
+i.fa.fa-paypal {
+    font-size: 30px;
+    color: #fff;
+    background: #337B71;
+    padding: 8px;
+}
+i.fa.fa-facebook-square {
+    font-size: 30px;
+    color: #fff;
+    background: #337B71;
+    padding: 8px;
+}
+h3.display-3.care.mb-4 {
+    color: #0F6458;
 }
