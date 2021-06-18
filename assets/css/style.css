@@ -1,4 +1,11 @@
 
+body{
+
+    font-family: 'Playfair Display', serif !important;
+    
+    
+}
+
 .container, .container-lg, .container-md, .container-sm, .container-xl {
     max-width: 1400px;
 }
@@ -24,7 +31,7 @@ ul.menu-item {
     /* justify-content: space-around; */
     margin-top: 40px;
 }
-li {
+li.li-item {
     margin-left: 35px;
     font-weight: bold;
     color: #010101;
@@ -56,12 +63,12 @@ button.button-register.rounded-pill {
 }
 
 h1.feature-heading.display-4.pb-4 {
-    color: #192c19;
+    color: #0f6458;
 }
 
 button.sign-up-button.rounded-pill {
     padding: 11px 24px;
-    background: #054505;
+    background: #0f6458;
     border: none;
     color: #fff;
 }
@@ -69,15 +76,16 @@ button.sign-up-button.rounded-pill {
 button.Download-button.rounded-pill {
     padding: 7px 21px;
     background: transparent;
-    border-color: green;
-    color: green;
+    border-color: #0f6458;
+    color: #0f6458;
 }
 
 section.feature {
     padding-top: 55px;
     background: aliceblue;
 }
-.row {
+
+.row.inner-content-wrapper {
     justify-content: center;
 }
 
@@ -139,6 +147,32 @@ section.download-app-wrapper {
     background: #FFCD8C;
 }
 
-section.download-app-wrapper {
- 
+i.fa.fa-handshake-o {
+    font-size: 3rem;
+    color: #0e5b4c;
+}
+
+i.fa.fa-home {
+    font-size: 3rem;
+    color: #0e5b4c;
+}
+
+.price-table {
+    background: #eef4f3;
+}
+
+li.col-lg-6 {
+    padding: .375rem;
+    list-style: none;
+    font-size: 18px;
+    color: #5d5757;
+}
+
+i.fa.fa-check-circle.mr-2 {
+    color: #0f6458;
+}
+
+.price {
+    padding: 30px;
+    text-align: center;
 }
