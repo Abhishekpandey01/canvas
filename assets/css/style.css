@@ -93,7 +93,7 @@ section.feature {
     width: 34px;
     height: 35px;
     border-radius: 100%;
-    background: green;
+    background: #0f6458;
     position: absolute;
     left: -28px;
     color: #fff;
@@ -253,4 +253,15 @@ i.fa.fa-facebook-square {
 }
 h3.display-3.care.mb-4 {
     color: #0F6458;
+}
+
+
+.content-box::after {
+    content: "";
+    position: absolute;
+    top: calc(92px + -44px);
+    left: -12px;
+    width: 2px;
+    height: calc(85% - 16px);
+    background-color: #0F6458;
 }
