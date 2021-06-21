@@ -263,5 +263,16 @@ h3.display-3.care.mb-4 {
     left: -12px;
     width: 2px;
     height: calc(85% - 16px);
+    background-color: #add2ba;
+}
+
+.content-box-one::after {
+    content: "";
+    position: absolute;
+    top: calc(92px + -44px);
+    left: -12px;
+    width: 2px;
+    height: calc(85% - 16px);
     background-color: #0F6458;
 }
+
