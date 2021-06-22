@@ -1,5 +1,37 @@
 @media (max-width: 575px){
 
+
+
+    .container.header-wrapper {
+        display: none;
+    }
+
+    li.nav-item {
+        border-bottom: 1px solid #eee;
+    }
+
+    a.nav-link {
+        color: #000 !important;
+        font-size: 20px;
+    }
+
+
+
+    .content-box-one {
+        padding: 30px;
+    }
+
+    .content-box-one::after {
+       left: 27px;
+    }
+
+    .icon {
+        position: absolute;
+        left: 12px;
+    }
+
+
+     
    h1.top-heading {
         font-size: 13px;
     }
@@ -31,10 +63,7 @@
         margin-right: 21px;
     }
 
-    .icon {
-        
-        position: revert; 
-    }
+    
     .icon2 { 
         position: revert;
     }
@@ -72,6 +101,12 @@ h3.border-bottom.pb-2.mb-2 {
 }
 
 @media (min-width: 768px) and (max-width: 1023px){
+
+
+    .container.header-wrapper {
+        display: none;
+    }
+
 
     .icon {
         position: initial;
@@ -112,8 +147,4 @@ button.button-large.rounded-pill {
     }
 
 }
-
-
-
-
-    
+ 
